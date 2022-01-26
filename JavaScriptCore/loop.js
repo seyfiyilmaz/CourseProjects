@@ -84,6 +84,7 @@ console.timeEnd("forEach");
 console.time("for...of");
 for(const elem of arr) {}
 console.timeEnd("for...of");
+
 /*for 1.000.000 iteration
     for: 2.587ms
     while: 0.004ms
