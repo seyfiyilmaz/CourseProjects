@@ -53,7 +53,6 @@ myArray.forEach(function(item, index){
     console.log(`index: ${index}, value: , ${elem}`);
 }*/
 
-
 //for...in
 /*const myObject = {
     "a": 1,
@@ -69,20 +68,23 @@ const num = 100000000;
 const arr = new Array(num);
 
 console.time("for");
-for (let i = 0; i<num;  i++){}
+for (let i = 0; i < num; i++) {}
 console.timeEnd("for");
 
 console.time("while");
 let i = 0;
-while (i < 0){i++;}
+while (i < 0) {
+  i++;
+}
 console.timeEnd("while");
 
 console.time("forEach");
-arr.forEach(elem => "");
+arr.forEach((elem) => "");
 console.timeEnd("forEach");
 
 console.time("for...of");
-for(const elem of arr) {}
+for (const elem of arr) {
+}
 console.timeEnd("for...of");
 
 /*for 1.000.000 iteration
@@ -105,3 +107,32 @@ console.timeEnd("for...of");
     forEach: 2.453s
     for...of: 2.676s
 */
+
+var day;
+
+switch (new Date().getDay()) {
+  case 0:
+    day = "Sunday";
+    break;
+  case 1:
+    day = "Monday";
+    break;
+  case 2:
+    day = "Tuesday";
+    break;
+  case 3:
+    day = "Wednesday";
+    break;
+  case 4:
+    day = "Thursday";
+    break;
+  case 5:
+    day = "Friday";
+    break;
+  case 6:
+    day = "Saturday";
+    break;
+  default:
+    break;
+}
+console.log("Today is ", day);
