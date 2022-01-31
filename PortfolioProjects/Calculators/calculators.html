@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <script type = "text/javascript" src="../../JavaScriptCore/calculators.js"></script> 
+    <link rel="stylesheet" href="./style.css">
+    <script type = "text/javascript" src="./calculators.js"></script> 
     <title>Calculators</title>
   </head>
   <body>
@@ -13,5 +14,12 @@
     <h2>The Calculate Method</h2>
     <p>Click the button to alert the hostname of the current URL.</p>
     <button onclick="calculate()">Try it</button>
+    <div class="container">
+        <input type="text" name="calculate-text" id="calculate-text">
+        <div class="calculate--button"><button class="calculate--button-style">1</button></div>
+        <div class="calculate--button"><button class="calculate--button-style">2</button></div>
+        <div class="calculate--button"><button class="calculate--button-style">3</button></div>
+        <div class="calculate--button"><button class="calculate--button-style">4</button></div>
+    </div>
   </body>
 </html>
