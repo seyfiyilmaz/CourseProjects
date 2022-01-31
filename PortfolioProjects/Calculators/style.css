@@ -1,4 +1,75 @@
-.container{
-    border: 1px solid darkgray;
-    border-radius: 1rem;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+.header {
+  padding: 20px 20px 0px 20px;
+}
+.container {
+  border: 1px solid darkgray;
+  border-radius: 1rem;
+  height: auto;
+  width: 340px;
+  background-color: dimgray;
+}
+.container--result {
+  align-items: center;  
+  height: auto;
+  margin: 5px;
+}
+.container--calculate-buttons {
+  float: left;
+  border: none;
+}
+.container--calculate-button-style {
+  margin: 7px;
+  width: 70px;
+  height: 70px;
+  font-size: 24px;
+  font-weight: bold;
+}
+.result--text {
+  float: left;
+  font-size: 36px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  width: 320px;
+}
+
+.container--calculate-button-C {
+  float: left;
+  margin-top: 7px;
+  width: 70px;
+  height: 70px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.container--calculate-button-percentage {
+  float: right;
+  margin: 7px;
+  width: 70px;
+  height: 70px;
+  font-size: 24px;
+  font-weight: bold;
+}
+.container--calculate-button-style-aqual {
+  margin: 5px;
+  height: 70px;
+  width: 158px;
+  background-color: chocolate;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.clear {
+  clear: both;
+}
+
+.footer {
+  height: 20px;
+  margin-top: 10px;
 }
