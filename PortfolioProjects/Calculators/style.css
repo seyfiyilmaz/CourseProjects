@@ -9,11 +9,11 @@
   padding: 20px 20px 0px 20px;
 }
 .container {
-  border: 1px solid darkgray;
+  border: 1px solid rgb(49, 165, 121);
   border-radius: 1rem;
   height: auto;
   width: 340px;
-  background-color: dimgray;
+  background-color: rgb(49, 165, 121);
 }
 .container--result {
   align-items: center;  
@@ -37,11 +37,15 @@
   font-weight: bold;
   font-family: "Times New Roman", Times, serif;
   width: 320px;
+  margin-bottom: 15px;
+  margin-top: 30px;
+  text-align: right;
 }
 
 .container--calculate-button-C {
   float: left;
-  margin-top: 7px;
+  margin-top: 5px;
+  margin-left: 2px;
   width: 70px;
   height: 70px;
   font-size: 24px;
@@ -50,7 +54,7 @@
 
 .container--calculate-button-percentage {
   float: right;
-  margin: 7px;
+  margin: 5px;
   width: 70px;
   height: 70px;
   font-size: 24px;
@@ -72,4 +76,12 @@
 .footer {
   height: 20px;
   margin-top: 10px;
+}
+
+.container--result-label{
+    float: right;
+    align-items: flex-end;
+    width: 150px;
+    text-align: right;
+    margin-bottom: 10px;
 }

@@ -1,0 +1,35 @@
+.container{
+  border:solid 1px #000000;
+  width: 400px;
+  }
+.sent{
+    margin-bottom:10px;
+    text-align: center;    
+    width: 390px;
+  }
+  button{
+    padding:10px;
+    background:#eee;
+    border:solid 1px rgb(79, 60, 114);
+    font-size:18px;
+    color:rgb(7, 68, 40);
+    cursor:pointer;
+    outline:none;
+  }
+  button:hover{
+    background:rgb(202, 115, 202);
+    color:rgb(17, 17, 17);
+    font-weight: bold;
+    font-size:20px;
+  }
+  #numbers{
+    font-size:30px;
+    font-weight: bold;
+    color:rgb(241, 16, 16);
+    text-align: center; 
+    padding: 10px;
+  }
+  h1{
+    color: rgb(58, 29, 221);
+    text-align: center;
+  }

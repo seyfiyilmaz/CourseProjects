@@ -38,10 +38,7 @@ function calculate() {
       case "/":
         processresult = a / b;
         break;
-      default:
-        // console.log(
-        //   "Please, you must select ['+','-','*','/'] for four operations in math. "
-        // );
+      default: 
         alert("Please, you must select ['+','-','*','/'] for four operations in math. ");
         break;
     }
@@ -52,4 +49,9 @@ function checknumbers(a, b) {
   if (isNaN(parseInt(a)) || isNaN(parseInt(b))) return false;
   else if (typeof a === "number" && typeof b === "number") return true;
   else return false;
+}
+
+function buttonpress(value){
+  alert("Coming Value: " + value);
+  console.log("Value: ", value);
 }

@@ -4,22 +4,62 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./img/calculators.jpg" type="image/x-icon">
     <link rel="stylesheet" href="./style.css">
-    <script type = "text/javascript" src="./calculators.js"></script> 
     <title>Calculators</title>
   </head>
   <body>
-    <h1>The Window Object</h1>
-    <h2>The Calculate Method</h2>
-    <p>Click the button to alert the hostname of the current URL.</p>
-    <button onclick="calculate()">Try it</button>
+      <!--   header   -->
+
+    <header class="header">
+        <h1>The Calculatoer Design Task with javascript</h1>
+    </header>  
+
+    
+    <!--   main   -->
+
     <div class="container">
-        <input type="text" name="calculate-text" id="calculate-text">
-        <div class="calculate--button"><button class="calculate--button-style">1</button></div>
-        <div class="calculate--button"><button class="calculate--button-style">2</button></div>
-        <div class="calculate--button"><button class="calculate--button-style">3</button></div>
-        <div class="calculate--button"><button class="calculate--button-style">4</button></div>
+        <div class="container--result">        
+            <input class="result--text" type="text" name="calculate-text" id="calculate-text">            
+            <div class="clear"></div>
+            <label class="container--result-label">24 + 15 =  </label>
+            <div class="clear"></div>            
+            <button class="container--calculate-button-C">C</button>
+            <button class="container--calculate-button-percentage">%</button>
+        </div>
+        <div class="clear"></div>
+        <div class="container--calculate-buttons"><input type="button" class="container--calculate-button-style" value="1" onclick="test(1);"></input></div>
+        <div class="container--calculate-buttons"><button class="container--calculate-button-style" onclick="test(2);" value="2">2</button></div>
+        <div class="container--calculate-buttons"><button class="container--calculate-button-style" value="3">3</button></div>
+        <div class="container--calculate-buttons"><button class="container--calculate-button-style" value="+">+</button></div>
+        <div class="clear"></div>
+        <div class="container--calculate-buttons"><button class="container--calculate-button-style" value="4">4</button></div>                
+        <div class="container--calculate-buttons"><button class="container--calculate-button-style" value="5">5</button></div>
+        <div class="container--calculate-buttons"><button class="container--calculate-button-style" value="6">6</button></div>
+        <div class="container--calculate-buttons"><button class="container--calculate-button-style"  value="-">-</button></div>
+        <div class="clear"></div>
+        <div class="container--calculate-buttons"><button class="container--calculate-button-style" value="7">7</button></div>
+        <div class="container--calculate-buttons"><button class="container--calculate-button-style" value="8">8</button></div>
+        <div class="container--calculate-buttons"><button class="container--calculate-button-style" value="9">9</button></div>
+        <div class="container--calculate-buttons"><button class="container--calculate-button-style" value="*">*</button></div>
+        <div class="clear"></div>
+        <div class="container--calculate-buttons"><button class="container--calculate-button-style" value="0">0</button></div>
+        <div class="container--calculate-buttons"><button class="container--calculate-button-style-aqual" value="=">=</button></div>
+        <div class="container--calculate-buttons"><button class="container--calculate-button-style" value="/">/</button></div>
+        <div class="clear"></div>
     </div>
+
+    
+    <!--  footer    -->
+
+    <div class="footer"></div>
+
+
+    <script src="./calculators.js"></script> 
+    <!-- <script>
+        function test(value){
+            alert("test:" + value);
+        }
+    </script> -->
   </body>
 </html>
