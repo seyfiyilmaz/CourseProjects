@@ -31,7 +31,7 @@ function generate(size, small, highest) { //size6, small:1, 49
 		Büyükten küçüğe sıralama yapmak için iki [aynı] dizi kendi içinde kontrol edilir.
 		1. Dizi 6 elemanlı (Sıralı olmayan numaraların olduğu dizi)
 		2. Dizi 6 elemanlı (Bo dizi bu diziye 1. dizideki numraları 
-		   küçükten büyüğe doğru sıralayıp atayacağız.)
+		   küçükten büyüğe doğru sıralayıp atayacağız.) Raif YILMAZ
 	*/
 	document.getElementById("numbers").innerHTML = numbers.join(" - ");
 }
